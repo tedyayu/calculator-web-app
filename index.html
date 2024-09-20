@@ -13,22 +13,22 @@
             <input type="text"  class="display">
             <div class="button-container">
                 <div class="buttons">
+                    <button onclick="getOperator('+')" class="newOperator">+</button>
                     <button onclick="getNumber('1')">1</button>
                     <button onclick="getNumber('2')">2</button>
                     <button onclick="getNumber('3')">3</button>
+                    <button onclick="getOperator('-')" class="newOperator">-</button>
                     <button onclick="getNumber('4')">4</button>
                     <button onclick="getNumber('5')">5</button>
                     <button onclick="getNumber('6')">6</button>
+                    <button onclick="getOperator('*')" class="newOperator">*</button>
                     <button onclick="getNumber('7')">7</button>
                     <button onclick="getNumber('8')">8</button>
                     <button onclick="getNumber('9')">9</button>
-                    <button onclick="getNumber('0')">0</button>
-                    <button onclick="getOperator('+')">+</button>
-                    <button onclick="getOperator('-')">-</button>
-                    <button onclick="getOperator('*')">*</button>
-                    <button onclick="getOperator('/')">/</button>
-                    <button onclick="calculate()">=</button>
-                    <button onclick="clearDisplay();">clear</button>
+                    <button onclick="getOperator('/')" class="newOperator">/</button>
+                    <button onclick="calculate()" class="newOperator">=</button>
+                    <button onclick="clearDisplay();" class="newOperator" id="clear">clear</button>
+                    <button onclick="getNumber('0')">0</button> 
                 </div>
             </div>
             

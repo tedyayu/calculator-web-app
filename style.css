@@ -46,3 +46,10 @@
     border: none;
     font-size: 25px;
 }
+.buttons .newOperator{
+    background-color: rgb(145, 69, 38);
+    font-weight: bold;
+}
+#clear{
+    font-size: 17px;
+}
