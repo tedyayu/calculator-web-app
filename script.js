@@ -8,6 +8,7 @@ let secondArray=[];
 let num=0;
 
 let display=document.querySelector('.display');
+display.value=o;
 function addition(firstNumber,secondNumber){
     result=firstNumber+secondNumber;
     return result;
